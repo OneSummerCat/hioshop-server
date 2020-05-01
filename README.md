@@ -5,7 +5,7 @@
 + 服务端api基于Ｎode.js+ThinkJS+MySQL
 
 ### 目前基于海风小店已经上线的几款微信小程序商城
-<img width="1400" src="http://lucky-other.meiweiyuxian.com/miniapp.jpg"/>
+<img width="1400" src="http://git.hiolabs.com/miniapp.jpg"/>
 
 ### 视频教程
 https://www.bilibili.com/video/av89567916
@@ -14,8 +14,8 @@ https://www.bilibili.com/video/av89567916
 微信小程序项目：GitHub: https://github.com/iamdarcy/hioshop-miniprogram  
 管理后台项目：GitHub: https://github.com/iamdarcy/hioshop-admin
 
-<a target="_blank" href="https://www.aliyun.com/acts/limit-buy?userCode=zm04niet"><img width="1400" src="http://lucky-other.meiweiyuxian.com/github/aliyun.jpg"/></a>
-阿里云主机：低至2折<a target="_blank" href="https://www.aliyun.com/acts/limit-buy?userCode=zm04niet">立即去看看</a>
+<a target="_blank" href="https://www.aliyun.com/minisite/goods?userCode=zm04niet"><img width="1400" src="http://git.hiolabs.com/aliyun.jpg"/></a>
+阿里云主机优惠季<a target="_blank" href="https://www.aliyun.com/minisite/goods?userCode=zm04niet">立即去看看</a>
 
 ### 本地开发环境配置
 + 克隆项目到本地
@@ -70,6 +70,18 @@ npm start
 ```
 启动后，本地访问 http://127.0.0.1:8360/
 
+### 上线需要以下准备工作： 
++ 一个微信服务公众号  
++ 阿里云服务器  
++ 注册小程序  
++ 完成认证的七牛  
++ 完成API安全设置的微信商户，并绑定好小程序id（支付）  
++ 知你客服  
++ 阿里云物流api  
++ 备案后的域名  
++ 如果卖食品，还需要《食品经营许可证》  
+具体进群交流 QQ群：824781955  
+
 ### 功能列表
 + 首页：搜索、Banner、公告、分类Icons、分类商品列表
 + 详情页：加入购物车、立即购买、选择规格
@@ -83,7 +95,7 @@ npm start
 ### 最近更新 
 - 新增生成分享图的功能  
 在src/common/config/config.js需要设置好已经开通https的七牛bucket的参数
-<img width="1000" src="http://lucky-other.meiweiyuxian.com/github/save-local.jpg"/>
+<img width="1000" src="http://git.hiolabs.com/github/save-local.jpg"/>
 
 - 项目地址  
 服务端： https://github.com/iamdarcy/hioshop-server  
@@ -91,4 +103,4 @@ npm start
 微信小程序：https://github.com/iamdarcy/hioshop-miniprogram  
 
 - 本项目会持续更新和维护，喜欢别忘了 Star，有问题可通过微信、QQ群联系我，谢谢您的关注。
-<img width="1200" src="http://lucky-other.meiweiyuxian.com/github/contact.jpg"/>
+<img width="1200" src="http://git.hiolabs.com/github/contact.jpg"/>
